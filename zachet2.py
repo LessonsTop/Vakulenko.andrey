@@ -57,11 +57,11 @@ def main():
 
 # """Получить данные из БД и записать их в JSON"""
 
-# name1 = ("Valera", '+7-903-800-00-00', 'test@test.ru', 1000)
-# name2 = ("Artem", '+7-908-222-80-00', 'artem@gmail.com', 3450)
-# name3 = ("Kolya", '+7-90000002121', 'kolya@mail.ru', 980)
-# name4 = ("Petya", '+89003211234', 'petya@yandex.ru', 1250)
-# name5 = ("Kostya", '+89077077070', 'kostya@rambler.ru', 398)
+# name1 = (1,"Valera", '+7-903-800-00-00', 'test@test.ru', 1000)
+# name2 = (2,"Artem", '+7-908-222-80-00', 'artem@gmail.com', 3450)
+# name3 = (3,"Kolya", '+7-90000002121', 'kolya@mail.ru', 980)
+# name4 = (4,"Petya", '+89003211234', 'petya@yandex.ru', 1250)
+# name5 = (5,"Kostya", '+89077077070', 'kostya@rambler.ru', 398)
 # listName = [name1,name2,name3,name4,name5]
 # write = json.dumps(listName,indent=4)
 # f = open("name.json","w")
