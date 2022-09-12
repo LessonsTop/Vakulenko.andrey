@@ -11,6 +11,7 @@ from MegaClass import Account
 from db import *
 import json
 
+"""Подключить  файл базы данных bank.db через SQL lite"""
 
 def main():
     listNames = ["Valera", "Artem", "Kolya", "Petya", "Kostya"]
@@ -54,7 +55,7 @@ def main():
     # for v in records:
     #     print(v)
 
-# """Получить данные из БД и записчать их в JSON"""
+# """Получить данные из БД и записать их в JSON"""
 
 # name1 = ("Valera", '+7-903-800-00-00', 'test@test.ru', 1000)
 # name2 = ("Artem", '+7-908-222-80-00', 'artem@gmail.com', 3450)
