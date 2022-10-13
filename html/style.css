@@ -1,0 +1,13 @@
+body{
+    background-color:wheat;
+    text-align-last:auto;
+    font-size:15px;
+    font-family: 'Times New Roman';
+    font-style:italic;
+}
+img{
+    width: 200px;
+}
+form{
+    padding:auto;
+}

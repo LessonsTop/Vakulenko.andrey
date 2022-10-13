@@ -1,0 +1,90 @@
+<!--Задание № 1-->
+<!-- Написать небольшую web страничку используя html + css с формами ввода без обработчика событий-->
+
+<!--Создать веб-страничку файл html.-->
+
+<!--<!DOCTYPE html>-->
+<html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./style.css" />
+      <title>DZNATN1</title>
+      </head>
+<body>
+      <img src="./2a4795a6b89afa6023544236a5a74942.png">
+      <h1>Форма опроса для регистрации</h1>
+
+        <form>
+
+         <p></p>
+         <label>Your name</label><br>
+         <input type="text" placeholder="Имя"/>
+
+
+        </form>
+        <form>
+          <p></p>
+          <label>Your secondname</label><br>
+          <input type="text" placeholder="Фамилия"/>
+
+
+        </form>
+
+
+        <form>
+
+         <p></p>
+         <label>Your age</label><br>
+         <input type="text" placeholder="Ваш Возраст"/>
+
+         </form>
+
+
+
+         <form>
+
+         </p></p>
+         <label>Your city</label><br>
+         <input type="text" placeholder="Город">
+
+
+        </form>
+        <form>
+          <p></p>
+          <label>Your email</label><br>
+          <input type="text" placeholder="Электронная почта">
+
+        </form>
+        <form>
+          <p></p>
+          <label>Your phone</label><br>
+          <input name="phone" type="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}"
+          placeholder = "Номер телефона">
+          </form>
+</body>
+</html>
+<!--добавить страничку css c фильтрами-->
+body{
+    background-color:wheat;
+    text-align-last:auto;
+    font-size:15px;
+    font-family: 'Times New Roman';
+    font-style:italic;
+}
+img{
+    width: 200px;
+}
+form{
+    padding:auto;
+}
+<!--Задание №2	Описать проект тестирования с помощью фреймворка selenium.-->
+<!--Объект для тестирования Ваша web страничка из первого задания-->
+import time
+from selenium import webdriver
+driver = webdriver.Chrome()
+driver.get('http://127.0.0.1:5500/DZATN1.html')
+time.sleep(10)
+driver.quit()
+
+
+
